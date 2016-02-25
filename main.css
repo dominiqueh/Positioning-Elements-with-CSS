@@ -1,0 +1,61 @@
+/* tables */
+table{
+		width: 800px;
+}
+tr{
+	border-bottom: 1px solid #BABABA;
+}
+th, td {
+	padding: 10px;
+}
+tr.last{
+	border-top: 1px solid #BABABA;
+	border-bottom: none;
+}
+
+/* stats */
+table.stats{
+	width: 260px;
+	height:100px;
+	text-align: center;
+}
+tr.stats{
+	border-top: 1px solid #BABABA;
+	border-bottom: 1px solid #BABABA;
+}
+div.stat_number{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 35px;
+}
+div.stat_subject{
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 12px;
+	color: #BABABA;
+}
+
+/* Bar Chart */
+table.barchart{
+	text-align: left;
+	width: 760px;
+}
+tr.barbar{
+	border-top: none;
+	border-bottom: none;
+}
+th.program{
+	text-align: right;
+	width: 90px;
+	padding: 2px 8px;
+}
+td.bartrunk{
+	padding:1px;
+}
+div.barinfo{
+	background-color: #64A0DE;
+	border-radius: 0px 4px 4px 0px;
+	font-size:14px;
+	color:white;
+	padding:4px;
+}
