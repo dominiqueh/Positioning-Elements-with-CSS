@@ -1,3 +1,8 @@
+/* General */
+* {
+	box-sizing: border-box;
+}
+
 /* tables */
 table{
 		width: 800px;
@@ -46,7 +51,7 @@ tr.barbar{
 }
 th.program{
 	text-align: right;
-	width: 90px;
+	width: 105px;
 	padding: 2px 8px;
 }
 td.bartrunk{
@@ -58,4 +63,57 @@ div.barinfo{
 	font-size:14px;
 	color:white;
 	padding:4px;
+}
+
+/* Lightbox */
+.lightbox {
+ /*position: fixed;
+ 	 top: 0;
+	 left: 0;
+	 height: 100%;*/
+	 height: 500px;
+	 width: 100%;
+	 background: rgba(0,0,0,0.65);
+	 display: table;
+	 padding: 10px;
+}
+.lightbox-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+.lightbox-content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pull-right {
+	float:right;
+}
+
+/* Media Block */
+p{
+	width: auto;
+}
+.align-left{
+	float: left;
+}
+
+.column1of2 {
+	width:5%;
+	clear: left;
+}
+.column2of2 {
+	width:95%;
+	overflow: auto;
+	padding: 0px 20px;
+}
+.response-block {
+	position:relative;
+	left: 60px;
+}
+img.tinyimg {
+	width: 33px;
 }
